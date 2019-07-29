@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Muli:300,300i,400,400i,600,600i,700|Oxygen:300,400,700|Playfair+Display:400,400i|Source+Code+Pro:300,400,500,600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.top-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.background-holder {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.background-holder .background {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.home-header-container {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+}
+
+.header-logo {
+  width: 20%;
+  height: auto;
+  display: block;
+}
+
+.main-header {
+  color: #f5f7f6;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.main-header2 {
+  color: #9E9E9E;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.home-main-header {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  color: #242424;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.home-main-par {
+  font-family: "Muli", sans-serif;
+  color: #4E4E4E;
+  font-size: 22px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.service-holder {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+.home-icon {
+  width: auto;
+  height: 75px;
+}
+
+.service-header {
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  color: #242424;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.service-par {
+  font-family: "Muli", sans-serif;
+  font-size: 22px;
+  color: #4E4E4E;
+  text-align: center;
+}
+
+.home-promise-section {
+  background: #e9e9e9;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+.home-par {
+  font-family: "Source Code Pro", monospace;
+  font-size: 22px;
+  text-align: center;
+  width: 80%;
+  min-width: 300px;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
+.home-par-small {
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  min-width: 300px;
+}
+
+.home-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.home-column {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  width: 50%;
+}
+.home-column img {
+  width: 80%;
+  max-width: 400px;
+  min-width: 250px;
+  height: auto;
+  max-height: 80px;
+  display: block;
+}
+
+/*# sourceMappingURL=home.css.map */

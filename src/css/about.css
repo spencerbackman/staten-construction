@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Muli:300,300i,400,400i,600,600i,700|Oxygen:300,400,700|Playfair+Display:400,400i|Source+Code+Pro:300,400,500,600&display=swap");
+#about-page {
+  padding-top: 100px;
+  background: #fff;
+}
+
+.about-section {
+  padding-bottom: 30px;
+}
+
+.about-header {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: #D32731;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.about-header-underline {
+  width: 200px;
+  height: 5px;
+  background: #242424;
+  margin: 10px auto 30px auto;
+  text-align: center;
+}
+
+.about-par {
+  font-family: "Muli", sans-serif;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+
+.about-image-holder {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: url("../images/about-wide.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-section2 {
+  background: #EDE3CE;
+  padding: 50px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-section2-inner {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-header4 {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  color: #242424;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.about-header4-underline {
+  width: 100px;
+  height: 8px;
+  background: #242424;
+}
+
+.about-header2 {
+  padding: 20px 0;
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  color: #D32731;
+}
+
+.about-par2 {
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  color: #242424;
+}
+
+/*# sourceMappingURL=about.css.map */

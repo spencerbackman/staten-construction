@@ -1,0 +1,93 @@
+@import 'assets';
+
+#asphalt-page {
+    padding-top: 100px;
+}
+
+.asphalt-header {
+    font-family: $serif2;
+    font-size: 40px;
+    color: $red;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.asphalt-header-underline {
+    width: 100px;
+    height: 7px;
+    background: $black;
+    margin: 0 auto 50px auto;
+}
+
+.asphalt-section2 {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.asphalt-header2 {
+    font-family: $serif;
+    font-size: 30px;
+    color: $black;
+    text-align: left;
+}
+.padding-bottom50 {
+    padding-bottom: 50px;
+}
+
+.asphalt-par {
+    font-family: $sans;
+    font-size: 20px;
+    color: $grey;
+}
+.asphalt-header4 {
+    font-family: $mono;
+    font-size: 22px;
+    color: $grey;
+}
+
+.asphalt-how-section {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background: $background-grey;
+}
+
+.asphalt-how-header {
+    font-family: $serif2;
+    font-size: 35px;
+    color: $red;
+    text-align: center;
+    padding: 10px 0;
+}
+.asphalt-how-header4 {
+    font-family: $mono;
+    font-size: 22px;
+    color: $black;
+    text-align: center;
+}
+
+.asphalt-how-par {
+    font-size: 20px;
+    font-family: $sans;
+    color: $grey;
+    text-align: center;
+    padding: 5px 0 20px 0;
+}
+.asphalt-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.asphalt-column {
+    width: auto;
+    height: auto;
+}
+
+.padding-top50 {
+    padding-top: 50px;
+}

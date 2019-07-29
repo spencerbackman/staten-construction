@@ -1,0 +1,70 @@
+@import 'assets';
+
+#contact-page {
+    padding-top: 100px;
+}
+
+.contact-container {
+    width: 80%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    font-family: $mono;
+    letter-spacing: -1px;
+    font-style: italic;
+    font-size: 25px;
+    color: $black;
+    padding-top: 30px;
+}
+.contact-header-underline {
+    width: 100px;
+    height: 6px;
+    background: $black;
+    margin: 10px 0 30px 0;
+}
+
+.contact-par {
+    font-family: $sans2;
+    font-size: 20px;
+    color: $black;
+
+}
+
+.contactRow {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    max-width: 700px;
+    padding: 10px 0;
+}
+
+.input {
+    height: 35px;
+    border: 1px solid #313131;
+}
+
+.contact-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    li {
+        font-family: $sans;
+        font-size: 20px;
+        color: $grey;
+        strong {
+            font-family: $mono;
+        }
+    }
+}
+.contact-header4 {
+    font-family: $mono;
+    color: $grey;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}

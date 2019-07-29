@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Muli:300,300i,400,400i,600,600i,700|Oxygen:300,400,700|Playfair+Display:400,400i|Source+Code+Pro:300,400,500,600&display=swap");
+#demo-page {
+  padding-top: 100px;
+}
+
+.demo-header {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  color: #D32731;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.demo-header-underline {
+  width: 100px;
+  height: 7px;
+  background: #242424;
+  margin: 0 auto 50px auto;
+}
+
+.demo-par {
+  font-family: "Muli", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 25px;
+  color: #4E4E4E;
+}
+
+/*# sourceMappingURL=demo.css.map */

@@ -1,0 +1,25 @@
+@import 'assets';
+
+#concrete-page {
+    padding-top: 100px;
+}
+.concrete-header {
+    font-family: $serif2;
+    font-size: 40px;
+    color: $red;
+    text-align: center;
+    padding-top: 30px;
+}
+.concrete-header-underline {
+    width: 100px;
+    height: 7px;
+    background: $black;
+    margin: 0 auto 50px auto;
+}
+.concrete-par {
+    font-family: $sans;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    color: $grey;
+}
