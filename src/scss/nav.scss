@@ -50,6 +50,8 @@
     background: $grey;
     padding: 12px 16px;
     margin: 0;
+    width: auto;
+    height: 100%;
 }
 
 .dropdown-link-holder:hover {
@@ -57,9 +59,23 @@
     .dropdown-link {
         background: $white;
         color: $red;
+        padding: 12px 16px;
+        margin: 0;
     }
 }
 
 #basic-nav-dropdown {
     background: $grey;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    #nav-link-container {
+        flex-flow: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+    }
 }

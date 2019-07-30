@@ -5,12 +5,14 @@ import dsLogo from './images/logo.png';
 import './scss/nav.scss';
 
 class NavMenu extends React.Component {
+
     render() {
         return (
             <div>
-                <Navbar id="navbar" expand="lg" fixed="top">
+                <Navbar id="navbar" collapseOnSelect expand="lg" fixed="top">
                     <Navbar.Brand> <Link className="nav-header" to="/"> <img src={dsLogo} className="nav-logo" alt="Double S, Inc"/> </Link> </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav id="nav-link-container" className="mr-auto">
                             <Nav.Link className="nav-link-holder"> <Link className="nav-link" to="/"> HOME </Link> </Nav.Link>
                             <NavDropdown className="nav-link-holder" title="SERVICES" id="basic-nav-dropdown">
@@ -25,6 +27,7 @@ class NavMenu extends React.Component {
                             <Nav.Link className="nav-link-holder"> <Link className="nav-link" to="/about"> ABOUT </Link> </Nav.Link>
                             <Nav.Link className="nav-link-holder"> <Link className="nav-link" to="/contact"> CONTACT </Link> </Nav.Link>
                         </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
             </div>
         )
