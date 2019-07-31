@@ -1,10 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Muli:300,300i,400,400i,600,600i,700|Oxygen:300,400,700|Playfair+Display:400,400i|Source+Code+Pro:300,400,500,600&display=swap");
 #navbar {
-  background: url("../images/bg/header-bg1.jpg");
-  background-size: container;
-  background-repeat: repeat;
+  background: #242424;
   width: 100%;
   height: auto;
+  color: #f5f7f6;
+}
+
+.nav-link-holder {
+  color: #f5f7f6;
+}
+
+.nav-dropdown-holder {
+  color: #f5f7f6;
+}
+
+.nav-dropdown-holder::first-line {
+  color: #f5f7f6;
 }
 
 .nav-header {
@@ -22,34 +33,27 @@
   align-items: center;
   width: 100%;
   padding-right: 5%;
+  color: #f5f7f6;
 }
 
 .nav-link {
   font-size: 20px;
-  color: #4E4E4E;
+  color: #f5f7f6;
+  text-decoration: none;
 }
 
 .nav-link:hover {
-  color: #D32731;
-}
-
-.nav-link-holder {
-  color: #4E4E4E;
-}
-
-.nav-link-holder:hover {
-  color: #D32731;
-}
-
-.dropdown-link {
   color: #f5f7f6;
 }
 
+.dropdown-link {
+  color: #4E4E4E;
+}
+
 .dropdown-link-holder {
-  background: #4E4E4E;
-  padding: 12px 16px;
+  padding: 14px 16px;
   margin: 0;
-  width: auto;
+  width: 200px;
   height: 100%;
 }
 
@@ -63,10 +67,12 @@
   margin: 0;
 }
 
-#basic-nav-dropdown {
-  background: #4E4E4E;
-  padding-top: 0;
-  padding-bottom: 0;
+.nav-dropdown-container {
+  color: #f5f7f6;
+}
+
+#nav-toggle {
+  background-color: white;
 }
 
 @media only screen and (max-width: 1000px) {

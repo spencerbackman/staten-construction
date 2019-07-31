@@ -32,6 +32,7 @@
     margin: 0 auto;
     font-size: 23px;
     padding-bottom: 20px;
+    max-width: 1000px;
 }
 
 .about-image-holder {
@@ -44,7 +45,7 @@
 }
 
 .about-section2 {
-    background: $creme;
+    background: $background-grey;
     padding: 50px 0;
     width: 100%;
     margin: 0 auto;

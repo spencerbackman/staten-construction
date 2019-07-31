@@ -12,6 +12,7 @@ import SealCoating from './SealCoating';
 import SitePreparation from './SitePreparation';
 import ParkingLots from './ParkingLots';
 import { Switch, Route } from 'react-router-dom';
+import './scss/styles.scss';
 
 class App extends React.Component {
   render() {

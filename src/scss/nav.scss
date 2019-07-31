@@ -2,11 +2,19 @@
 
 
 #navbar {
-    background: url('../images/bg/header-bg1.jpg');
-    background-size: container;
-    background-repeat: repeat;
+    background: $black;
     width: 100%;
     height: auto;
+    color: $white;
+}
+.nav-link-holder {
+    color: $white;
+}
+.nav-dropdown-holder {
+    color: $white;
+}
+.nav-dropdown-holder::first-line {
+    color: $white;
 }
 
 .nav-header {
@@ -24,33 +32,27 @@
     align-items: center;
     width: 100%;
     padding-right: 5%;
+    color: $white;
 }
 
 .nav-link {
     font-size: 20px;
-    color: $grey;
+    color: $white;
+    text-decoration: none;
 }
 
 .nav-link:hover {
-    color: $red;
-}
-
-.nav-link-holder {
-    color: $grey;
-}
-.nav-link-holder:hover {
-    color: $red;
-}
-
-.dropdown-link {
     color: $white;
 }
 
+.dropdown-link {
+    color: $grey;
+}
+
 .dropdown-link-holder {
-    background: $grey;
-    padding: 12px 16px;
+    padding: 14px 16px;
     margin: 0;
-    width: auto;
+    width: 200px;
     height: 100%;
 }
 
@@ -63,12 +65,14 @@
         margin: 0;
     }
 }
-
-#basic-nav-dropdown {
-    background: $grey;
-    padding-top: 0;
-    padding-bottom: 0;
+.nav-dropdown-container {
+    color: $white;
 }
+
+#nav-toggle {
+    background-color: white;
+}
+
 
 @media only screen and (max-width: 1000px) {
     #nav-link-container {

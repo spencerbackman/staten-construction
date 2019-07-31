@@ -16,23 +16,27 @@ class Home extends React.Component {
          return (
             <div>
                 <div className="top-container">
-                    <div className="background-holder">
-                        <img src={background} className="background" alt="Double S Inc | Staten Construction"/>
-                    </div>
                     <div className="home-header-container">
                         <img src={logo} className="header-logo" alt="Double S, Inc"/>
                         <h1 className="main-header"> We are a complete site preparation contractor </h1>
                         <h2 className="main-header2"> Doing business as Staten Contruction </h2>
                     </div>
                 </div>
+                <div className="home-service-row">
+                    <div className="home-service-column">
+                        <h2 className="home-main-header"> Welcome to Double S Inc. </h2>
+                        <p className="home-main-par"> Double S, Inc., also known as Staten Construction, is a complete site preparation contractor serving the Grenada and North Mississippi area. 
+                            We are a leading contractor in Grenada and North Mississippi area for excavation, dirt work, asphalt, concrete, driveways, parking lots, subdivisions, utilities, 
+                            and much more. <br/> <br/>
+                            We invite you to browse our web site to see samples of the quality work we do on asphalt overlays, demolition and repairs, site preparation, concrete, parking lots, 
+                            utilities, and subdivisions. 
+                        </p>
+                    </div>
+                </div>
+
                 <div className="service-section">
-                    <h2 className="home-main-header"> Our Services </h2>
-                    <p className="home-main-par"> Double S, Inc., also known as Staten Construction, is a complete site preparation contractor serving the Grenada and North Mississippi area. 
-                        We are a leading contractor in Grenada and North Mississippi area for excavation, dirt work, asphalt, concrete, driveways, parking lots, subdivisions, utilities, 
-                        and much more. <br/> <br/>
-                        We invite you to browse our web site to see samples of the quality work we do on asphalt overlays, demolition and repairs, site preparation, concrete, parking lots, 
-                        utilities, and subdivisions. 
-                    </p>
+                    <h2 className="header2"> Our Services </h2>
+                    <div className="header2-underline"></div>
                     <div className="service-container">
                         <div className="service-holder">
                             <img src={sitePrep} className="home-icon" alt="Site Preperation"/>
@@ -79,8 +83,9 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="home-promise-section">
-                    <h2 className="home-main-header"> Our promise to you </h2>
-                    <p className="home-main-par">
+                    <h2 className="home-promise-header"> Our promise to you </h2>
+                    <div className="home-promise-header-underline"></div>
+                    <p className="home-promise-par">
                         When you call us with construction needs, we will meet with you and devise a comprehensive plan to meet those needs. This plan will show how we will do the work, 
                         when we will do the work, and will give us a guaranteed price for the work. All this will be done at <strong>no obligation & free </strong> of charge.
                     </p>
@@ -90,12 +95,12 @@ class Home extends React.Component {
                     <p className="home-par-small"> We accept Credit Cards </p>
                     <div className="home-row">
                         <div className="home-column">
-                            <p className="home-par-small"> We are proud members of the Mississippi Association of Builders and Contractors. </p>  
                             <img src={abcMs} className="home-img" alt="Associated Builders and Contractors Mississippi"/>
+                            <p className="home-par-small"> We are proud members of the Mississippi Association of Builders and Contractors. </p>  
                         </div>
                         <div className="home-column">
-                            <p className="home-par-small"> We are Dun & Bradstreet verified. </p>
                             <img src={dnb} alt="Dun & Bradstreet verification"/>
+                            <p className="home-par-small"> We are Dun & Bradstreet verified. </p>
                         </div>
                     </div>
                 </div>
