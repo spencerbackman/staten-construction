@@ -1,5 +1,4 @@
 import React from 'react';
-import background from './images/main.jpg';
 import logo from './images/dbsl.png';
 import mixer from './images/icons/mixer.svg';
 import sitePrep from './images/icons/sitePrep.svg';
@@ -14,7 +13,7 @@ import './scss/home.scss';
 class Home extends React.Component {
      render() {
          return (
-            <div>
+            <div id="home-page">
                 <div className="top-container">
                     <div className="home-header-container">
                         <img src={logo} className="header-logo" alt="Double S, Inc"/>
@@ -34,8 +33,8 @@ class Home extends React.Component {
                     </div>
                 </div>
 
-                <div className="service-section">
-                    <h2 className="header2"> Our Services </h2>
+                <div className="service-section" id="home-services">
+                    <h2 className="main-header3"> Our Services </h2>
                     <div className="header2-underline"></div>
                     <div className="service-container">
                         <div className="service-holder">
@@ -83,7 +82,7 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="home-promise-section">
-                    <h2 className="home-promise-header"> Our promise to you </h2>
+                    <h2 className="main-header3"> Our promise to you </h2>
                     <div className="home-promise-header-underline"></div>
                     <p className="home-promise-par">
                         When you call us with construction needs, we will meet with you and devise a comprehensive plan to meet those needs. This plan will show how we will do the work, 

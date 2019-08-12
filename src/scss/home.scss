@@ -5,6 +5,13 @@ body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
+    background: #f5f5f5;
+}
+
+#home-page {
+    background: url('../images/background.svg');
+    background-size: contain;
+    background-attachment: fixed;
 }
 
 .top-container {
@@ -66,9 +73,17 @@ body {
     font-size: 40px;
     text-align: center;
 }
+.main-header3 {
+    color: $black;
+    font-family: $serif2;
+    font-size: 40px;
+    text-align: center;
+}
 
 .service-section {
+    padding-top: 25px;
     box-shadow: 0 5px 5px -5px $white;
+    background: #f5f5f5;
 }
 
 .home-service-row {
@@ -80,7 +95,8 @@ body {
     align-items: flex-start;
     position: relative;
     height: auto;
-    margin-bottom: 100px;
+    padding-bottom: 75px;
+    background: rgba(250,250,250,0.8);
 }
 
 .home-service-column {
@@ -168,6 +184,7 @@ body {
     box-shadow: 0px -5px 8px -5px #e9e9e9;
     background: #e9e9e9;
     margin-bottom: 0;
+    padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     flex-flow: column;
