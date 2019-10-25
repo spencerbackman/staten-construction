@@ -165,8 +165,10 @@ body {
 }
 
 .home-icon {
+  max-width: 75px;
+  max-height: 75px;
   width: auto;
-  height: 75px;
+  height: auto;
 }
 
 .service-header {

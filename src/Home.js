@@ -8,6 +8,9 @@ import subDiv from './images/icons/subDivision.svg';
 import utilities from './images/icons/utilities.svg';
 import abcMs from './images/ABC-MS_Logo.png';
 import dnb from './images/logo-dnb.svg';
+import demolition from './images/icons/demolition.svg';
+import overlay from './images/icons/road-perspective.svg';
+import { Link } from 'react-router-dom';
 import './scss/home.scss';
 
 class Home extends React.Component {
@@ -37,48 +40,83 @@ class Home extends React.Component {
                     <h2 className="main-header3"> Our Services </h2>
                     <div className="header2-underline"></div>
                     <div className="service-container">
-                        <div className="service-holder">
+                        <Link className="service-holder" to="/site-preparation">
                             <img src={sitePrep} className="home-icon" alt="Site Preperation"/>
                             <div className="service-text-holder">
                                 <h3 className="service-header"> Site Preparation </h3>
                                 <p className="service-par"> Staten Construction will perform necessary excavations & compaction to put your site on finish grade as a architect or engineer plans show. </p>
                             </div>
-                        </div>
-                        <div className="service-holder">
+                        </Link>
+                        <Link className="service-holder" to="/concrete">
                             <img src={mixer} className="home-icon" alt="Concrete"/>
                             <div className="service-text-holder">
                                 <h3 className="service-header"> Concrete </h3>
                                 <p className="service-par"> Staten Construction can build you a sidewalk or pour a slab for your foundation. </p>
                             </div>
-                        </div>
-                        <div className="service-holder">
+                        </Link>
+                        <Link className="service-holder" to="/parking-lots">
                             <img src={flat} className="home-icon" alt="Parking Lots"/>
                             <div className="service-text-holder">
                                 <h3 className="service-header"> Parking Lots </h3>
-                                <p className="service-par"> Staten Construction can reshape your existing parking lot or build you a new parking lot from start to finish. </p>
+                                <p className="service-par"> 
+                                    Staten Construction can reshape your existing parking lot or build you a new parking lot from start to finish. 
+                                </p>
                             </div>
-                        </div>
-                        <div className="service-holder">
+                        </Link>
+                        <Link className="service-holder" to="/asphalt">
                             <img src={mixer2} className="home-icon" alt="Asphalt"/>
                             <div className="service-text-holder">
                                 <h3 className="service-header"> Asphalt </h3>
-                                <p className="service-par"> Staten Construction can build a new street or driveway or overlay an old one. </p>
+                                <p className="service-par"> 
+                                    Staten Construction can build a new street or driveway or overlay an old one. 
+                                </p>
                             </div>
-                        </div>
+                        </Link>
+                        <Link className="service-holder" to="/asphalt-overlay">
+                            <img src={overlay} className="home-icon" alt="Asphalt Overlay"/>
+                            <div className="service-text-holder">
+                                <h3 className="service-header"> Asphalt Overlay </h3>
+                                <p className="service-par">
+                                    If you have potholes, ruts, or low areas that hold water. We will come and locate any weakness repair them and overlay your existing asphalt.
+                                </p>
+                            </div>
+                        </Link>
                         <div className="service-holder">
                             <img src={subDiv} className="home-icon" alt="Subdivision"/>
                             <div className="service-text-holder">
                                 <h3 className="service-header"> Subdivision </h3>
-                                <p className="service-par"> Staten Contruction can lay out new subdivisions </p>
+                                <p className="service-par"> 
+                                    Staten Contruction can lay out new subdivisions 
+                                </p>
                             </div>
                         </div>
                         <div className="service-holder">
                             <img src={utilities} className="home-icon" alt="Utilities"/>
                             <div className="service-text-holder">
                                 <h3 className="service-header"> Utilities </h3>
-                                <p className="service-par"> Staten Construction can install sanitary sewers, storm sewers, waterlines, and other necessary utility work. </p>
+                                <p className="service-par"> 
+                                    We can install sanitary sewers, storm sewers, waterlines, and other necessary utility work. 
+                                </p>
                             </div>
                         </div>
+                        <Link className="service-holder" to="/demolition-and-repairs">
+                            <img src={demolition} className="home-icon" alt="Demolition & Repairs"/>
+                            <div className="service-text-holder">
+                                <h3 className="service-header"> Demolition & Repairs </h3>
+                                <p className="service-par">
+                                    We are equipped to handle any demolitions & repairs you need.
+                                </p>
+                            </div>
+                        </Link>
+                        <Link className="service-holder" to="/seal-coatings">
+                            <img src="" alt=""/>
+                            <div className="service-text-holder">
+                                <h3 className="service-header"> Seal Coatings </h3>
+                                <p className="service-par">
+                                    Applying a seal coat will protect and extend the life of asphalt. We highly recommend seal coating your asphalt for longevity and reduced maintenance costs.
+                                </p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="home-promise-section">
