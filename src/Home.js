@@ -10,6 +10,7 @@ import abcMs from './images/ABC-MS_Logo.png';
 import dnb from './images/logo-dnb.svg';
 import demolition from './images/icons/demolition.svg';
 import overlay from './images/icons/road-perspective.svg';
+import sealCoating from './images/icons/seal_coating.svg';
 import { Link } from 'react-router-dom';
 import './scss/home.scss';
 
@@ -109,7 +110,7 @@ class Home extends React.Component {
                             </div>
                         </Link>
                         <Link className="service-holder" to="/seal-coatings">
-                            <img src="" alt=""/>
+                            <img src={sealCoating} className="home-icon" alt="Seal Coatings"/>
                             <div className="service-text-holder">
                                 <h3 className="service-header"> Seal Coatings </h3>
                                 <p className="service-par">

@@ -25,8 +25,8 @@ class NavMenu extends React.Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" id="nav-toggle" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav id="nav-link-container" variant="light" className="mr-auto">
-                            <Nav.Link onClick={this.closeNav} className="nav-link-holder"> <Link style={{ color: 'white' }}  className="nav-link" to="/"> HOME </Link> </Nav.Link>
-                            <NavDropdown style={{ color: 'white' }} eventKey={2} className="nav-dropdown-holder" title="SERVICES" id="nav-dropdown">
+                            <Nav.Link onClick={this.closeNav} className="nav-link-holder"> <Link className="nav-link" to="/"> HOME </Link> </Nav.Link>
+                            <NavDropdown eventKey={2} className="nav-dropdown-holder" title="SERVICES" id="nav-dropdown">
                                 <NavDropdown.Item onClick={this.closeNav} eventKey={2.1} className="dropdown-link-holder"> <Link className="dropdown-link" to="/asphalt"> Asphalt </Link> </NavDropdown.Item>
                                 <NavDropdown.Item onClick={this.closeNav} eventKey={2.2} className="dropdown-link-holder"> <Link className="dropdown-link" to="/asphalt-overlay"> Asphalt Overlay </Link> </NavDropdown.Item>
                                 <NavDropdown.Item onClick={this.closeNav} eventKey={2.3} className="dropdown-link-holder"> <Link className="dropdown-link" to="/concrete"> Concrete </Link> </NavDropdown.Item>
@@ -35,8 +35,8 @@ class NavMenu extends React.Component {
                                 <NavDropdown.Item onClick={this.closeNav} eventKey={2.6} className="dropdown-link-holder"> <Link className="dropdown-link" to="/seal-coating"> Seal Coating </Link> </NavDropdown.Item>
                                 <NavDropdown.Item onClick={this.closeNav} eventKey={2.7} className="dropdown-link-holder"> <Link className="dropdown-link" to="/site-preparation"> Site Preparation </Link> </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link onClick={this.closeNav} className="nav-link-holder"> <Link style={{ color: 'white' }} className="nav-link" to="/about"> ABOUT </Link> </Nav.Link>
-                            <Nav.Link onClick={this.closeNav} className="nav-link-holder"> <Link style={{ color: 'white' }} className="nav-link" to="/contact"> CONTACT </Link> </Nav.Link>
+                            <Nav.Link onClick={this.closeNav} className="nav-link-holder"> <Link className="nav-link" to="/about"> ABOUT </Link> </Nav.Link>
+                            <Nav.Link onClick={this.closeNav} className="nav-link-holder"> <Link className="nav-link" to="/contact"> CONTACT </Link> </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

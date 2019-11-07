@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Muli:300,300i,400,400i,600,600i,700|Oxygen:300,400,700|Playfair+Display:400,400i|Source+Code+Pro:300,400,500,600&display=swap");
 #navbar {
-  background: #242424;
+  background: #e8e8e8;
   width: 100%;
   height: auto;
   color: #f5f7f6;
@@ -38,7 +38,7 @@
 
 .nav-link {
   font-size: 20px;
-  color: #f5f7f6;
+  color: #242424;
   text-decoration: none;
 }
 
@@ -73,6 +73,10 @@
 
 #nav-toggle {
   background-color: white;
+}
+
+#nav-dropdown {
+  color: #f5f7f6;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -1,8 +1,7 @@
 @import 'assets';
 
-
 #navbar {
-    background: $black;
+    background: $light-grey;
     width: 100%;
     height: auto;
     color: $white;
@@ -37,7 +36,7 @@
 
 .nav-link {
     font-size: 20px;
-    color: $white;
+    color: $black;
     text-decoration: none;
 }
 
@@ -73,6 +72,9 @@
     background-color: white;
 }
 
+#nav-dropdown {
+    color: $white;
+}
 
 @media only screen and (max-width: 1000px) {
     #nav-link-container {
