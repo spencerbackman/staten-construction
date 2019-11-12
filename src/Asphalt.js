@@ -1,6 +1,12 @@
 import React from 'react';
 import residential from './images/residential-asphalt.png';
 import commercial from './images/commercial-asphalt.png';
+import img from './images/asphalt-overlay-lake.jpg';
+import img2 from './images/seal_coating_driveway.png';
+import img3 from './images/seal_coating-medical-center.jpg'
+import img4 from './images/parking_lot_dollar_general.png';
+import img5 from './images/asphalt-overlay-sonic.jpg';
+import img6 from './images/seal_coating_medical_center2.jpg';
 import './scss/asphalt.scss';
 
 class Asphalt extends React.Component {
@@ -11,6 +17,12 @@ class Asphalt extends React.Component {
                     <h1 className="asphalt-header"> Asphalt </h1>
                     <div className="asphalt-header-underline"></div>
                 </div>
+                <img src={img} className="service-image" alt="Grenada Lake road." />
+                <img src={img2} className="service-image" alt="Residential Driveways" />
+                <img src={img3} className="service-image" alt="Grenada Medical Complex Parking Lot" />
+                <img src={img4} className="service-image" alt="Dollar General Asphalt Parking Lot" />
+                <img src={img5} className="service-image" alt="Sonic Asphalt Overlay" />
+                <img src={img6} className="service-image" alt="Seal Coating Medical Center"/>
                 <div className="asphalt-section">
                     <h2 className="asphalt-top-header"> Asphalt Work </h2>
                     <p className="asphalt-par">  
